@@ -2,27 +2,86 @@
   text-align: center;
 }
 
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 80px;
+.image_container {
+  margin: 0 auto;
 }
 
-.App-header {
-  background-color: #222;
-  height: 150px;
-  padding: 20px;
-  color: white;
+@media  only screen and (min-device-width: 320px) {
+
+  .image_container {
+    width: 320px;
+    height: 131px;
+    background-image: url("https://res.cloudinary.com/spotlightuk/image/fetch/w_320,c_limit/https://spotlight-cmsmedia.s3-eu-west-1.amazonaws.com/media/1192/opened-space.png");
+  }
 }
 
-.App-title {
-  font-size: 1.5em;
+@media only screen and (min-device-width: 640px) {
+
+  .image_container {
+    width: 640px;
+    height: 284px;
+    background-image: url("https://res.cloudinary.com/spotlightuk/image/fetch/w_640,c_limit/https://spotlight-cmsmedia.s3-eu-west-1.amazonaws.com/media/1192/opened-space.png");
+  }
 }
 
-.App-intro {
-  font-size: large;
+@media only screen and (min-device-width: 768px) {
+
+  .image_container {
+    width: 768px;
+    height: 341px;
+    background-image: url("https://res.cloudinary.com/spotlightuk/image/fetch/w_768,c_limit/https://spotlight-cmsmedia.s3-eu-west-1.amazonaws.com/media/1192/opened-space.png");
+  }
 }
 
-@keyframes App-logo-spin {
-  from { transform: rotate(0deg); }
-  to { transform: rotate(360deg); }
+@media only screen and (min-device-width: 1024px) {
+
+  .image_container {
+    width: 1024px;
+    height: 455px;
+    background-image: url("https://res.cloudinary.com/spotlightuk/image/fetch/w_1024,c_limit/https://spotlight-cmsmedia.s3-eu-west-1.amazonaws.com/media/1192/opened-space.png");
+  }
+}
+
+@media only screen and (min-device-width: 1536px) {
+
+  .image_container {
+    width: 1536px;
+    height: 683px;
+    background-image: url("https://res.cloudinary.com/spotlightuk/image/fetch/w_1536,c_limit/https://spotlight-cmsmedia.s3-eu-west-1.amazonaws.com/media/1192/opened-space.png");
+  }
+}
+
+@media only screen and (min-device-width: 2048px) {
+
+  .image_container {
+    width: 2048px;
+    height: 910px;
+    background-image: url("https://res.cloudinary.com/spotlightuk/image/fetch/w_2048,c_limit/https://spotlight-cmsmedia.s3-eu-west-1.amazonaws.com/media/1192/opened-space.png");
+  }
+}
+
+@media only screen
+and (min-device-width: 320px)
+and (max-device-width: 480px)
+and (-webkit-min-device-pixel-ratio: 2) {
+
+  .image_container {
+    width: 320px;
+    height: 142px;
+    background-image: url("https://res.cloudinary.com/spotlightuk/image/fetch/w_640,c_limit/https://spotlight-cmsmedia.s3-eu-west-1.amazonaws.com/media/1192/opened-space.png");
+    background-size: cover;
+  }
+}
+
+@media only screen
+and (min-device-width : 768px)
+and (max-device-width : 1024px)
+and (-webkit-min-device-pixel-ratio: 2) {
+
+  .image_container {
+    width: 768px;
+    height: 341px;
+    background-image: url("https://res.cloudinary.com/spotlightuk/image/fetch/w_1536,c_limit/https://spotlight-cmsmedia.s3-eu-west-1.amazonaws.com/media/1192/opened-space.png");
+    background-size: cover;
+  }
 }
